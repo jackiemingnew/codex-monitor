@@ -13,6 +13,8 @@ codex监测是一款原生 macOS 刘海屏监测工具。它会贴合 MacBook �
 
 项目当前支持本机 Codex、CLIProxyAPI / CPA Manager Plus、NewAPI 和 Sub2API 多类数据源，适合需要长期观察 Codex 使用量、账号额度和远程代理面板状态的用户。
 
+本仓库基于 [ALight777/codex-monitor](https://github.com/ALight777/codex-monitor) 改造。
+
 ### 功能概览
 
 - 刘海区域常驻显示：左侧状态灯，右侧关键指标。
@@ -201,6 +203,7 @@ Tests/CodexNotchRegressionTests/ 回归测试
 scripts/build-app.sh             构建 .app 和 .dmg
 scripts/install-user-app.sh      安装到 ~/Applications
 scripts/run-regression-tests.sh  运行回归测试
+scripts/clean-dev-artifacts.sh   清理 .build 和 dist 开发产物
 ```
 
 <a id="english"></a>
@@ -210,6 +213,8 @@ scripts/run-regression-tests.sh  运行回归测试
 Codex Monitor is a native macOS notch overlay for monitoring Codex activity, local usage, and several remote account panels. It sits around the MacBook notch like a compact dynamic island, showing a small status indicator on the left and key metrics on the right.
 
 The app currently supports local Codex telemetry, CLIProxyAPI / CPA Manager Plus, NewAPI, and Sub2API. It is designed for users who want a persistent, low-friction view of Codex activity, quota status, and remote account balances.
+
+This repository is based on [ALight777/codex-monitor](https://github.com/ALight777/codex-monitor).
 
 ### Features
 
@@ -399,4 +404,5 @@ Tests/CodexNotchRegressionTests/ Regression tests
 scripts/build-app.sh             Build .app and .dmg
 scripts/install-user-app.sh      Install to ~/Applications
 scripts/run-regression-tests.sh  Run regression tests
+scripts/clean-dev-artifacts.sh   Remove .build and dist development artifacts
 ```
